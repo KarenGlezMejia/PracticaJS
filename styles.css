@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-principal{
+    width: 55%;
+    height: 62vh;
+    display: flex;
+    margin: auto;
+    background-color: transparent;
+}
+
+.contenedor-izquierdo-principal{
+   
+    background-color: red;
+    width: 50%;
+    height: 76vh;
+   
+    
+}
+
+/*
+.contenedor-izquierdo{
+    background-color: blueviolet;
+    width: 47%;
+    height: 500px;
+    
+}*/
+
+.contenedor-derecho{
+   
+    background-color: red;
+    width: 50%;
+    height: 62vh;
+    margin-top: 14vh;
+}
+
+.contenedor-circulos{
+    padding-bottom: 2vh;
+    display: flex;
+    width: 100%;
+    border:1px solid black;
+  
+}
+
+.circulo-azul,
+.boton-azul{
+    background-color: aqua;
+}
+
+.circulo-azul{
+    margin: 2vh 4vh 0vh 3vh;
+  /*  margin-top: 3vh;
+    margin-left: 3vh;
+    margin-right: 10vh;*/
+    
+    border-radius: 50%;
+    border: 5px solid  white;
+    width: 20%;
+    height: 10vh;
+    
+}
+
+.circulo-rojo,
+.boton-rojo{
+    background-color: red;
+}
+
+.circulo-verde{
+    background-color: green;
+}
+
+.circulo-amarillo{
+    background-color: yellow;
+}
+
+.circulo-rojo,
+.circulo-amarillo,
+.circulo-verde{
+    border-radius: 50%;
+    margin-top: 2vh;
+    margin-right: 2vh;
+    width: 4%;
+    height: 2vh;
+}
+
+.contenedor-izquierdo{
+    display: flex;
+}
+
+.pantalla{
+    width: 90%;
+    height: 61.5vh;
+    border:1px red solid
+}
+
+.visagras{
+   
+    width: 12%;
+    height: 62vh;
+    background-color: red;
+    border: 2px solid black;
+    
+}
+
+.pantalla-principal{
+    width: 85%;
+    margin: auto;
+    margin-top: 5vh;
+    height: 33vh;
+    border-radius: 5px;
+    border-left: 5px;
+    background-color: antiquewhite;
+}
+
+.focos{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.circulo{
+    border-radius: 50%;
+    width: 2%;
+    height: 1vh;
+    background-color: red;
+    margin-top: 2vh; 
+    margin-right: 2vh;   
+}
+
+.pantalla-pokemon{
+    width: 80%;
+    margin: auto;
+    margin-top: 2vh;
+    height: 22vh;
+    background-color: black;
+}
+
+.botones{
+    display: flex;
+}
+
+.boton{
+    margin: 3vh 4vh 0vh 3vh;
+    /*  margin-top: 3vh;
+      margin-left: 3vh;
+      margin-right: 10vh;*/
+      
+      border-radius: 50%;
+      width: 15%;
+      height: 7vh;
+      background-color:grey;
+  }
+
+.botones-medio{
+    margin-top: 3vh;
+    width: 35%;
+    height: 15vh;
+    
+}
+.contenedor-botones{
+    display: flex;
+   
+}
+
+.mini-pantalla{
+    margin-top: 3vh;
+    background-color: green;
+    width: 100%;
+    height: 10vh;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+.boton-rojo,
+.boton-azul{
+    border-radius: 2px;
+    margin:auto;
+    width: 40%;
+    height: 1vh;
+}
+
+.flechas{
+    margin-top: 3vh;
+    margin-left: 3vh;
+    margin-right: 5vh;
+    width: 30%;
+    height: 15vh;
+   
+}
+
+.flechas .row{
+    display: flex;
+    height: 5vh;
+   
+}
+
+.flechas .col{
+    width: 33%;
+   
+}
+
+.relleno{
+    background-color: black;
+}
+
+.pantalla-horizontal{
+    width: 80%;
+    margin: auto;
+    margin-top: 5vh;
+    height: 12vh;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.teclas{
+    width: 80%;
+    margin: auto;
+    margin-top: 5vh;
+    height: 12vh;
+    background-color: aqua;
+   
+}
+
+.teclas .row{
+    height: 6vh;
+    display: flex;
+    border: 1px solid black;
+}
+
+.teclas .col{
+    width: 20%;
+    border: 1px solid black;
+}
+
+.botones-abajo{
+   width: 83%;
+   margin: auto; 
+   display: flex;
+   justify-content: flex-end;
+    
+}
+
+.btn{
+    border-radius: 2px;
+    margin-top: 2vh;
+    margin-right: 1vh;
+    width: 10%;
+    height: 1vh;
+    background-color: black;
+}
+
+.button{
+    width: 80%;
+    margin: auto;
+    margin-top: 3vh;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button .row{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    border: 1px solid black;
+}
+
+.button .col{
+    width: 50%;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+.circle{
+    width: 15%;
+    border-radius: 50%;
+    background-color: gold;
+}
+
+.mini-pantallas{
+    width: 80%;
+    height: 6vh;
+    margin: auto;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mini-pantallas .col{
+    width: 40%;
+    height: 100%;
+    background-color: black;
+    border-radius: 5px;
+}
+
+/*
+
+.contenedor-medio{
+    margin-top: 12vh;
+    background-color: slateblue;
+    width: 6%;
+    height: 421px;
+    border: 1px solid gold;
+}
+
+
+.contenedor-circulos{
+    display: flex;
+    width: 100%;
+}
+
+.circulo-azul,
+.boton-azul{
+    background-color: aqua;
+}
+
+.circulo-azul{
+    margin: 3vh 4vh 0vh 3vh;
+  /*  margin-top: 3vh;
+    margin-left: 3vh;
+    margin-right: 10vh;*/
+    /*
+    border-radius: 50%;
+    border: 5px solid  white;
+    width: 20%;
+    height: 10vh;
+    
+}*/
+
+
+/*
+.circulo-rojo,
+.boton-rojo{
+    background-color: red;
+}
+
+.circulo-verde{
+    background-color: green;
+}
+
+.circulo-amarillo{
+    background-color: yellow;
+}
+
+.circulo-rojo,
+.circulo-amarillo,
+.circulo-verde{
+    border-radius: 50%;
+    margin-top: 3vh;
+    margin-right: 2vh;
+    width: 4%;
+    height: 2vh;
+}
+
+.pantalla-principal{
+    width: 100%;
+    margin: auto;
+    margin-top: 5vh;
+    height: 33vh;
+    border-radius: 5px;
+    border-left: 5px;
+    background-color: antiquewhite;
+}
+
+.focos{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.circulo{
+    border-radius: 50%;
+    width: 2%;
+    height: 1vh;
+    background-color: red;
+    margin-top: 2vh; 
+    margin-right: 2vh;   
+}
+
+.pantalla-pokemon{
+    width: 80%;
+    margin: auto;
+    margin-top: 2vh;
+    height: 22vh;
+    background-color: black;
+}
+
+.botones{
+    display: flex;
+}
+
+.boton{
+    margin: 3vh 4vh 0vh 3vh;
+    /*  margin-top: 3vh;
+      margin-left: 3vh;
+      margin-right: 10vh;*/
+      /*
+      border-radius: 50%;
+      width: 15%;
+      height: 7vh;
+      background-color:grey;
+  }
+
+.botones-medio{
+    margin-top: 3vh;
+    width: 35%;
+    height: 15vh;
+    border: 1px solid black;
+}
+.contenedor-botones{
+    display: flex;
+   
+}
+
+.mini-pantalla{
+    margin-top: 3vh;
+    background-color: green;
+    width: 100%;
+    height: 10vh;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+.boton-rojo,
+.boton-azul{
+    border-radius: 2px;
+    margin:auto;
+    width: 40%;
+    height: 1vh;
+}
+
+.flechas{
+    margin-top: 3vh;
+    margin-left: 3vh;
+    margin-right: 5vh;
+    width: 30%;
+    height: 15vh;
+    border: 1px solid black;
+}
+
+*/
