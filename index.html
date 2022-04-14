@@ -8,7 +8,7 @@
     <title>JS</title>
 </head>
 <body>
-    <h1>JS</h1>
+    <img  class="logo" src="https://crisgon.github.io/pokedex/src/images/logo.png">
     <div class="contenedor-principal">
         <div class="contenedor-izquierdo-principal">
             <div class="contenedor-circulos">
@@ -25,20 +25,20 @@
                             <div class="circulo"></div>                   
                         </div>
                         <div class="pantalla-pokemon">
-        
+                            <img  id="pokeImage" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bd0ba646-3d51-4979-a04c-bc8169de1dab/d4f0gnw-c79677cd-3f48-4175-ae8a-a3cd666fe8f1.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JkMGJhNjQ2LTNkNTEtNDk3OS1hMDRjLWJjODE2OWRlMWRhYlwvZDRmMGdudy1jNzk2NzdjZC0zZjQ4LTQxNzUtYWU4YS1hM2NkNjY2ZmU4ZjEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.VV74RGsdS91Hd8Du-S669wvWB52oSYoMuW4Qi_RYaf4" id="pokeImage">
                         </div>
                         <div class="bocina">
         
                         </div>
                     </div>
                     <div class="botones">
-                        <div class="boton"></div>
+                        <button onclick="fetchPokemon()" class="boton" id="botonPush">Push</button>
                         <div class="botones-medio">
                             <div class="contenedor-botones">
                                 <div class="boton-rojo"></div>
                                 <div class="boton-azul"></div>
                             </div>
-                            <div class="mini-pantalla"></div>
+                            <input class="mini-pantalla" placeholder="nombre"id="pokeName"></input>
                         </div>
                         <div class="flechas">
                             <div class="row">
@@ -105,8 +105,11 @@
     </div>
        
         <div class="contenedor-derecho">
-            <div class="pantalla-horizontal">
-
+            <div class="pantalla-horizontal" id="pantalla-horizontal">
+                <p id="pokeType"></p><p id="pokeMovimientos"></p>
+                <p id="pokeEstadisticas"></p>
+                <div class="estadisticas" id="estadisticas"></div>
+               <div class="nombresEstadisticas" id="nombresEstadisticas"></div> 
             </div>
             <div class="teclas">
                 <div class="row">
@@ -131,16 +134,22 @@
             </div>
             <div class="button">
                 <div class="row">
-                    <div class="col"></div>
-                    <div class="col"></div>
+                    <div class="col izq"></div>
+                    <div class="col der"></div>
                 </div>
-                <div class="circle"></div>
+                <button class="circle" id="circle">Shiny</button>
+                
             </div>
             <div class="mini-pantallas">
-                    <div class="col"></div>
-                    <div class="col"></div>
+                    <div class="col">
+                        <p id="pokePeso"></p>
+                    </div>
+                    <div class="col">
+                        <p id="pokeId"></p>
+                    </div>
             </div>
         </div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
