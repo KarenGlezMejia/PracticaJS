@@ -2,6 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  
+}
+
+body{
+    background-image: url(https://images.wikidexcdn.net/mwuploads/wikidex/5/5b/latest/20211018042925/EP1091_Casa_de_Ash.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.logo{
+    width: 15%;
+
 }
 
 .contenedor-principal{
@@ -14,7 +27,7 @@
 
 .contenedor-izquierdo-principal{
    
-    background-color: red;
+    background-color: rgb(206, 17, 49);
     width: 50%;
     height: 76vh;
    
@@ -31,10 +44,12 @@
 
 .contenedor-derecho{
    
-    background-color: red;
+    background-color: rgb(206, 17, 49);
     width: 50%;
     height: 62vh;
     margin-top: 14vh;
+    border-bottom-right-radius: 15px;
+
 }
 
 .contenedor-circulos{
@@ -93,14 +108,14 @@
 .pantalla{
     width: 90%;
     height: 61.5vh;
-    border:1px red solid
+    border:1px solid rgb(206, 17, 49);
 }
 
 .visagras{
    
     width: 12%;
     height: 62vh;
-    background-color: red;
+    background-color: rgb(206, 17, 49);
     border: 2px solid black;
     
 }
@@ -112,7 +127,7 @@
     height: 33vh;
     border-radius: 5px;
     border-left: 5px;
-    background-color: antiquewhite;
+    background-color: rgb(161, 160, 160);
 }
 
 .focos{
@@ -135,7 +150,24 @@
     margin: auto;
     margin-top: 2vh;
     height: 22vh;
-    background-color: black;
+    background-color: white;
+}
+
+.pantalla-pokemon img{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+}
+
+.pantalla-horizontal p{
+    color: beige;
+    text-align: center;
+}
+
+.estadisticas {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
 }
 
 .botones{
@@ -172,6 +204,8 @@
     height: 10vh;
     border-radius: 2px;
     border: 1px solid black;
+    color: aliceblue;
+    text-align: center;
 }
 
 .boton-rojo,
@@ -210,7 +244,7 @@
     width: 80%;
     margin: auto;
     margin-top: 5vh;
-    height: 12vh;
+    height: 14vh;
     background-color: black;
     border: 1px solid black;
 }
@@ -220,19 +254,19 @@
     margin: auto;
     margin-top: 5vh;
     height: 12vh;
-    background-color: aqua;
+    background-color: rgb(49, 167, 241);
    
 }
 
 .teclas .row{
     height: 6vh;
     display: flex;
-    border: 1px solid black;
+    border: 1px solid rgb(27, 68, 156);
 }
 
 .teclas .col{
     width: 20%;
-    border: 1px solid black;
+    border: 1px solid  rgb(27, 68, 156);
 }
 
 .botones-abajo{
@@ -265,20 +299,41 @@
     width: 30%;
     height: 100%;
     display: flex;
-    border: 1px solid black;
+   
+    border-bottom: 3px solid gray;
+    border-left: 3px solid gray;
+    border-radius: 5px;
 }
 
 .button .col{
     width: 50%;
-    border: 1px solid black;
+    border-right: 1px solid gray;
+    
     background-color: aliceblue;
+}
+
+.button .izq{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.button .der{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .circle{
     width: 15%;
     border-radius: 50%;
     background-color: gold;
+    text-align: center
 }
+
+/*
+.circle p{
+    margin-top: 1vh;
+}
+*/
 
 .mini-pantallas{
     width: 80%;
@@ -294,6 +349,13 @@
     height: 100%;
     background-color: black;
     border-radius: 5px;
+}
+
+.mini-pantallas .col p{
+    color: beige;
+    font-size: 2vh;
+    margin: 1vh;
+    text-align: center;
 }
 
 /*
